@@ -26,8 +26,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <header>
+      <body className={`w-full h-full min-h-screen ${inter.className}`}>
+        <header className="w-full p-2">
           <Suspense fallback={
             <Spinner/>
           }>
