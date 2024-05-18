@@ -30,4 +30,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  
+}
+
+.mask{
+  position: absolute;
+  mask-image: url('../public/Ellipse\ 1.svg');
+  mask-repeat: no-repeat;
+  mask-size: 40px;
+  z-index: 30;
+  width: 50%;
+  height: 500px;
+  color: black;
+  @apply bg-stone-50 
 }

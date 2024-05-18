@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Baskervville } from "next/font/google";
 import "./globals.css";
 import { lazy, Suspense } from "react";
 import Spinner from '@/app/components/Spinner';
 
 const inter = Inter({ subsets: ["latin"] });
+
+const baskervville = Baskervville({ 
+  subsets: ["latin"], 
+  weight: ['400'], 
+  style: ['normal', 'italic'],
+  variable: '--font-baskervville'
+})
 
 export const metadata: Metadata = {
   title: "Voyager Interview Project",
@@ -26,8 +33,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`w-full h-full min-h-screen ${inter.className}`}>
-        <header className="w-full p-2">
+      <body className={`w-full h-full min-h-screen ${inter.className} ${baskervville.variable}`}>
+        <header className="w-full h-full p-2 sticky top-0 z-40 flex justify-center">
           <Suspense fallback={
             <Spinner/>
           }>
