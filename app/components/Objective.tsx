@@ -7,7 +7,7 @@ export default function Objective() {
 
 
   return (
-    <section id='obj' className='my-20 p-20 py-28  w-full flex flex-col items-center justify-center bg-zinc-950 gap-5'>
+    <section id='obj' className='my-20 p-20 py-28  w-full flex flex-col items-center justify-center bg-zinc-950 gap-5 border-y-4 border-dashed'>
       <div className='rounded-2xl bg w-full flex flex-col items-center justify-center p-2 bg-gradient-radial'>
         <h2 className='text-stone-50 text-7xl font-bold'>
         &#8608;Objective&#8606;

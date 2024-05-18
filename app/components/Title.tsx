@@ -29,7 +29,7 @@ export default function Title() {
         className={'mask text-7xl flex flex-col gap-4 items-center justify-center font-bold text-center shadow-inner'}
         animate={{
 
-          WebkitMaskPosition: `${x! - (size + 150)}px ${y! - (size - 70)}px`,
+          WebkitMaskPosition: `${x! - (size/2)}px ${y! - (size/2)}px`,
 
           WebkitMaskSize: `${size}px`,
 
@@ -72,8 +72,10 @@ export default function Title() {
             &darr;
           </button>
         </motion.div>
-        <h1 className='text-7xl font-sans w-min text-white bg-transparent font-bold absolute z-20 drop-shadow-xl'>&lt;Lorenzo Washington/&#62;</h1>
-        
+        <div className='text-7xl font-sans w-min text-white bg-transparent font-bold absolute z-20 drop-shadow-xl'>
+          <h1>&lt;Lorenzo Washington/&#62;</h1>
+          {/* <p className='font-mono text-xl font-medium text-center'>Hover to reveal</p> */}
+        </div>
       </div> 
       <p id='why' className='text-black m-10 my-9 text-9xl font-bold'>&quot;The Prefect Peice to Your Puzzle&quot;</p>
     </section>
