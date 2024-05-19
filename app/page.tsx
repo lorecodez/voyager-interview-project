@@ -10,6 +10,10 @@ const Objective = lazy(() => import('@/app/components/Objective').then( module =
   return {default: module.default}
 }))
 
+const Education = lazy(() => import('@/app/components/Education').then( module => {
+  return {default: module.default}
+}))
+
 export default function Home() {
   return (
     <main className="">
@@ -18,6 +22,9 @@ export default function Home() {
       </Suspense>
       <Suspense fallback={<Spinner/>}>
         <Objective/> 
+      </Suspense>
+      <Suspense fallback={<Spinner/>}>
+        <Education/>
       </Suspense>
     </main>
   );

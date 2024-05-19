@@ -71,6 +71,19 @@ export default function Head() {
           </button>
           <span className={`group-hover:scale-100 block duration-200 group- scale-0 transiton-all ease-in-out bg-zinc-950 w-full h-[2px]`}></span>
         </li>
+        <li className='group' title='My Coding Journey'>
+          <button
+          onClick={() =>{
+            const element = document.getElementById('code')
+            element?.scrollIntoView({
+              behavior: 'smooth'
+            })
+          }}
+          className='hover:text-red-600 transition-all duration-200 ease-linear'
+          >My Coding Journey
+          </button>
+          <span className={`group-hover:scale-100 block duration-200 group- scale-0 transiton-all ease-in-out bg-zinc-950 w-full h-[2px]`}></span>
+        </li>
         <li className='group' title='Hobbies'>
           <button
           onClick={() =>{

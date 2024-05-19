@@ -26,6 +26,16 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+main {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -45,3 +55,13 @@ body {
   color: black;
   @apply bg-stone-50 
 }
+
+/* .edu{
+  background-image: url('../public/Ellipse\ 1.svg'); 
+  background-size: 50px;
+} */
+
+/* .edu, div{
+  background-image: url('../public/Ellipse\ 1.svg'); 
+  background-size: 40px;
+} */
