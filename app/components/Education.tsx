@@ -13,7 +13,7 @@ export default function Education() {
         <div className='bg-stone-50  shadow-xl w-2/3 relative rounded-2xl'>
           <table className='w-full font-mono '>
             <thead>
-              <tr className='border bg-zinc-950 text-stone-50 text-left text-xl font-bold rounded-2xl'>
+              <tr className='border bg-zinc-950 text-stone-50 text-left text-3xl rounded-2xl'>
                 <th scope='col' className='px-6 py-3'>Name</th>
                 <th scope='col' className=' py-3'>Date</th>
                 <th scope='col' className='px-6 py-3'>Description</th>
@@ -47,6 +47,7 @@ export default function Education() {
           height={400}
           width={400}
           alt='Jake the dog reading'
+          title='Me Reading'
           className='absolute z-10 -right-36 -bottom-10 '
           />
         </div>
