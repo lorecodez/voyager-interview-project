@@ -17,7 +17,7 @@ export default function Hobbbies() {
         width={200}
         title='Me With Sandwich'
         alt='Jake and a sandwich'
-        className='absolute z-10 -left-16 -bottom-20 '
+        className='absolute z-10 -left-16 -bottom-24 '
         />
       </div>
       <div className='self-end bg-stone-50 w-1/2 rounded-2xl drop-shadow-xl px-6 py-3 relative'>
@@ -29,12 +29,12 @@ export default function Hobbbies() {
         width={200}
         title='MO Unit Model B'
         alt='BMO'
-        className='absolute z-10 -right-10 -bottom-20 '
+        className='absolute z-10 -right-10 -bottom-28 '
         />
       </div>
       <div className=' self-start bg-stone-50 w-1/2 rounded-2xl px-6 py-3 relative drop-shadow-xl'>
         <p className='font-bold text-4xl my-2'>Inital D Enthusist</p>
-        <p className='text-xl font-medium '>Inspired by the anime sensation Inital D, I bought an old E46 to fix up and take to Sonoma Raceway. <span className='pl-24'>Im hoping to take to car to autocross events <span className='pl-24'>aswell.</span></span></p>
+        <p className='text-xl font-medium pl-24'>Inspired by the anime sensation Inital D, I bought an old E46 to fix up and take to Sonoma Raceway. Im hoping to take to car to autocross events aswell.</p>
         <Image
         src={Racecar}
         height={300}
