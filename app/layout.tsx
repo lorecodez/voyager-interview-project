@@ -42,7 +42,12 @@ export default function RootLayout({
           </Suspense>
         </header>
         {children}
-        <footer>
+        <footer 
+        style={{
+          clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"
+        }}
+        className="relative h-64 w-full"
+        >
           <Suspense fallback={
             <Spinner/>
           }>

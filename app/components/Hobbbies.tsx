@@ -6,7 +6,7 @@ import Racecar from '@/public/racecar-jake.png'
 
 export default function Hobbbies() {
   return (
-    <section id='hob' className='bg-zinc-950 flex flex-col items-center p-10 border-y-4 border-dashed gap-10 py-40 font-mono'>
+    <section id='hob' className=' bg-zinc-950 flex flex-col items-center p-10 border-y-4 border-dashed gap-10 py-40 font-mono'>
       <h6 className='text-stone-50 text-7xl font-sans font-bold mb-10'>&#8608;Hobbies&#8606;</h6>
       <div className=' self-start bg-stone-50 w-1/2 rounded-2xl px-6 py-3 relative drop-shadow-xl'>
         <p className='font-bold text-4xl my-2'>I Like to Cook</p>
@@ -22,14 +22,14 @@ export default function Hobbbies() {
       </div>
       <div className='self-end bg-stone-50 w-1/2 rounded-2xl drop-shadow-xl px-6 py-3 relative'>
         <p className='font-bold text-4xl my-2'>Hobby # 2 Gaming</p>
-        <p className='text-xl font-medium pr-20'>I grew up on gaming, after all who doesn&apos;t love a good quest. from playing zelda on my n64 to today playing the witcher on my PC, I will always be a gamer at heart.</p>
+        <p className='text-xl font-medium pr-16'>I grew up on gaming, after all who doesn&apos;t love a good quest. from playing zelda on my n64 to today playing the witcher on my PC, I will always be a gamer at heart.</p>
         <Image
         src={BMO}
         height={300}
         width={200}
         title='MO Unit Model B'
         alt='BMO'
-        className='absolute z-10 -right-16 -bottom-20 '
+        className='absolute z-10 -right-10 -bottom-20 '
         />
       </div>
       <div className=' self-start bg-stone-50 w-1/2 rounded-2xl px-6 py-3 relative drop-shadow-xl'>
