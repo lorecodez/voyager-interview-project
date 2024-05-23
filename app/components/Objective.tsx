@@ -22,7 +22,7 @@ export default function Objective() {
         />
       </div>
       <article className='text-stone-50 p-4 w-3/4 font-mono text-xl font-medium leading-relaxed'>
-        The Voyager program is a chance for me to act as a role model in my community while working with real world professionals from Niantic. This is a golden opportunity to gain a fresh prospective on coding, one that I can not miss. I aim to take away new skills, new friends and connections from this bootcamp. What I bring to the table is a desire to learn and grow with others. I am eager to share and showcase what knowledge I have now aswell as what I will learn through this program.
+      The Voyager program is a chance for me to act as a role model in my community while working with real-world professionals from Niantic. This is a golden opportunity to gain a fresh perspective on coding, one that I cannot miss. I aim to take away new skills, new friends and connections from this bootcamp. What I bring to the table is a desire to learn and grow with others. I am eager to share and showcase the knowledge I have now, as well as what I will learn through this program.
       </article>
     </section>
   )
