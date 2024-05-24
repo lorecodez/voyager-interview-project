@@ -13,11 +13,9 @@ export default function Head() {
 
     const prev = scrollY.getPrevious();
 
-    if(!prev){
-      throw new Error('somthing went wrong')
-    }
+    
 
-    if ( latest > prev && latest > 150){
+    if ( latest > prev! && latest > 150){
       setHidden(true);
     } else {
       setHidden(false);
