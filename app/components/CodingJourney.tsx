@@ -13,7 +13,7 @@ export default function CodingJourney() {
 
   return (
     <section id='code' className='w-full  h-fit flex-col items-center justify-center bg-inherit p-20'>
-      <h5 className='text-7xl font-bold font-sans w-fit mx-auto my-10 '>&#8608;My Coding Journey&#8606;</h5>
+      <h5 className='text-7xl font-bold w-fit mx-auto my-10 '>&#8608;My Coding Journey&#8606;</h5>
       <div className='w-full flex gap-10 justify-center items-center'>
         {/* time line */}
         <div className='flex flex-col h-full'>
