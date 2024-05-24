@@ -14,9 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        'sans' : ['Helvetica', 'Arial'],
-        'serif' : ['Georgia'],
-        'baskervville' : ['var(--font-baskervville)']
+        'sans' : ['Helvetica'],
       }
     },
   },
