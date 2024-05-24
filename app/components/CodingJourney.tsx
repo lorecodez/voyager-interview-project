@@ -27,7 +27,7 @@ export default function CodingJourney() {
               <div className='bg-zinc-950 h-28 w-1 absolute z-10 border border-dashed'></div>
             </div>
             <button 
-            className={`${year == 2016 && 'bg-red-600'} bg-zinc-950 text-stone-50 rounded-full py-3 px-6 font-mono text-4xl h-fit hover:bg-red-600 hover:scale-105 transition-all duration-200 ease-in shadow-2xl`}
+            className={`${year == 2016 ? 'bg-red-600' : 'bg-zinc-950'} text-stone-50 rounded-full py-3 px-6 font-mono text-4xl h-fit hover:bg-red-600 hover:scale-105 transition-all duration-200 ease-in shadow-2xl`}
             onClick={() => {
               setDetails(first)
               setYear(2016)
@@ -49,7 +49,7 @@ export default function CodingJourney() {
               setDetails(second)
               setYear(2020)
             }} 
-            className={`${year == 2020 && 'bg-red-600'} bg-zinc-950 text-stone-50 rounded-full py-3 px-6 font-mono text-4xl h-fit hover:bg-red-600 hover:scale-105 transition-all duration-200 ease-in shadow-2xl`}
+            className={`${year == 2020 ? 'bg-red-600' : 'bg-zinc-950'} text-stone-50 rounded-full py-3 px-6 font-mono text-4xl h-fit hover:bg-red-600 hover:scale-105 transition-all duration-200 ease-in shadow-2xl`}
             >
               2020
             </button>
@@ -63,7 +63,7 @@ export default function CodingJourney() {
               <div className='bg-zinc-950 h-28 w-1 absolute z-10 border border-dashed'></div>
             </div>
             <button 
-            className={`${year == 2023 && 'bg-red-600'} bg-zinc-950 text-stone-50 rounded-full py-3 px-6 font-mono text-4xl h-fit hover:bg-red-600 hover:scale-105 transition-all duration-200 ease-in shadow-2xl`}
+            className={`${year == 2023 ? 'bg-red-600' : 'bg-zinc-950'} text-stone-50 rounded-full py-3 px-6 font-mono text-4xl h-fit hover:bg-red-600 hover:scale-105 transition-all duration-200 ease-in shadow-2xl`}
             onClick={() => {
               setDetails(third)
               setYear(2023)
@@ -81,7 +81,7 @@ export default function CodingJourney() {
               <div className='bg-zinc-950 h-28 w-1 absolute z-10 border border-dashed'></div>
             </div>
             <button 
-            className={`${year == 2024 && 'bg-red-600'} bg-zinc-950 text-stone-50 rounded-full py-3 px-6 font-mono text-4xl h-fit hover:bg-red-600 hover:scale-105 transition-all duration-200 ease-in shadow-2xl`}
+            className={`${year == 2024 ? 'bg-red-600' : 'bg-zinc-950'} text-stone-50 rounded-full py-3 px-6 font-mono text-4xl h-fit hover:bg-red-600 hover:scale-105 transition-all duration-200 ease-in shadow-2xl`}
             onClick={() => {
               setDetails(fourth)
               setYear(2024)
