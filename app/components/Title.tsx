@@ -72,7 +72,7 @@ export default function Title() {
             &darr;
           </button>
         </motion.div>
-        <div className='text-7xl font-sans w-min text-white bg-transparent font-bold absolute z-20 drop-shadow-xl'>
+        <div className='text-7xl w-min text-white bg-transparent font-bold absolute z-20 drop-shadow-xl'>
           <h1>&lt;Lorenzo Washington/&#62;</h1>
           {/* <p className='font-mono text-xl font-medium text-center'>Hover to reveal</p> */}
         </div>
