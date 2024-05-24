@@ -77,7 +77,7 @@ export default function Title() {
           {/* <p className='font-mono text-xl font-medium text-center'>Hover to reveal</p> */}
         </div>
       </div> 
-      <p id='why' className='text-black m-10 my-9 text-9xl font-bold'>&quot;The Prefect Peice to Your Puzzle&quot;</p>
+      <p id='why' className='text-black m-10 my-9 text-9xl font-bold'>&quot;The Prefect Piece to Your Puzzle&quot;</p>
     </section>
   )
 }
