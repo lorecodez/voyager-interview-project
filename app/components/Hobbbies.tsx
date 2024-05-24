@@ -7,7 +7,7 @@ import Racecar from '@/public/racecar-jake.png'
 export default function Hobbbies() {
   return (
     <section id='hob' className=' bg-zinc-950 flex flex-col items-center p-10 border-y-4 border-dashed gap-10 py-40 font-mono'>
-      <h6 className='text-stone-50 text-7xl font-sans font-bold mb-10'>&#8608;Hobbies&#8606;</h6>
+      <h6 className='text-stone-50 text-7xl font-bold mb-10'>&#8608;Hobbies&#8606;</h6>
       <div className=' self-start bg-stone-50 w-1/2 rounded-2xl px-6 py-3 relative drop-shadow-xl'>
         <p className='font-bold text-4xl my-2'>I Like to Cook</p>
         <p className='text-xl font-medium pl-20'>Cooking just runs in my family. My father is a chef, so is my aunt, and my sister is a baker. Some of my favorite things to cook are smoked chicken, burgers, bolognese, and bulgogi.</p>

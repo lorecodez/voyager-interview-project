@@ -4,7 +4,7 @@ import React from 'react'
 export default function Experience() {
   return (
     <section id='exp' className='flex flex-col items-center justify-center  mx-auto py-40 bg-zinc-950 h-full border-y-4 border-dashed'>
-      <h4 className='text-7xl text-stone-50 font-sans font-bold my-10 mt-0 max-w-6xl'>&#8608;Experience&#8606;</h4>
+      <h4 className='text-7xl text-stone-50 font-bold my-10 mt-0 max-w-6xl'>&#8608;Experience&#8606;</h4>
       <div className='bg-gray-50 font-mono text-xl font-medium w-full max-w-6xl flex flex-col gap-4 rounded-2xl p-3 px-6 shadow-xl'> 
         <div className='flex justify-between items-center w-full'>
           <p>

@@ -7,7 +7,7 @@ export default function Education() {
     <section id='edu' className=' flex flex-col items-center justify-center h-fit bg-inherit'>
       
       <div className='mb-20 my-24 pb-20 w-full flex flex-col items-center justify-center'>
-        <h3 className='font-sans text-7xl m-10 font-bold'>
+        <h3 className=' text-7xl m-10 font-bold'>
           &#8608;Education&#8606;
         </h3>
         <div className='bg-stone-50  shadow-xl w-2/3 relative rounded-2xl'>
