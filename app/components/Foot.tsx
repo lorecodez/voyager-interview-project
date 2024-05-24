@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Foot() {
   return (
-    <section className='fixed bottom-0 flex items-center py-3 px-6 justify-start gap-2 h-64 w-full'>
+    <section className='fixed bottom-0 flex items-center py-3 px-6 justify-start gap-2 h-72 w-full'>
       
       <div className='h-full w-1/3 font-medium text-xl flex flex-col gap-2 rounded-2xl bg-zinc-950 text-stone-50 px-6 py-3 drop-shadow-xl'>
         <p className='text-4xl font-bold'>Navigation</p>
