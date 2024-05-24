@@ -40,7 +40,7 @@ export default function RootLayout({
         style={{
           clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"
         }}
-        className="relative h-64 w-full"
+        className="relative h-72 w-full"
         >
           <Suspense fallback={
             <Spinner/>
