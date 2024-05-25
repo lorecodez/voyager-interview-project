@@ -22,7 +22,7 @@ export default function Hobbbies() {
       </div>
       <div className='self-end bg-stone-50 w-1/2 rounded-2xl drop-shadow-xl px-6 py-3 relative'>
         <p className='font-bold text-4xl my-2'>Hobby # 2 Gaming</p>
-        <p className='text-xl font-medium pr-20 font-mono'>I grew up on gaming, after all, who doesn&apos;t love a good quest. from playing Zelda on my N64 to today playing The Witcher on my PC, I will always be a gamer at heart.</p>
+        <p className='text-xl font-medium pr-20 font-mono'>I grew up on gaming, after all, who doesn&apos;t love a good quest. From playing Zelda on my N64 to today playing The Witcher on my PC, I will always be a gamer at heart.</p>
         <Image
         src={BMO}
         height={300}
