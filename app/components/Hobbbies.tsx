@@ -22,7 +22,7 @@ export default function Hobbbies() {
       </div>
       <div className='self-end bg-stone-50 w-1/2 rounded-2xl drop-shadow-xl px-6 py-3 relative'>
         <p className='font-bold text-4xl my-2'>Hobby # 2 Gaming</p>
-        <p className='text-xl font-medium pr-20'>I rgrew up on gaming, after all, who doesn&apos;t love a good quest. from playing Zelda on my N64 to today playing The Witcher on my PC, I will always be a gamer at heart.</p>
+        <p className='text-xl font-medium pr-20 font-mono'>I grew up on gaming, after all, who doesn&apos;t love a good quest. from playing Zelda on my N64 to today playing The Witcher on my PC, I will always be a gamer at heart.</p>
         <Image
         src={BMO}
         height={300}
@@ -34,7 +34,7 @@ export default function Hobbbies() {
       </div>
       <div className=' self-start bg-stone-50 w-1/2 rounded-2xl px-6 py-3 relative drop-shadow-xl'>
         <p className='font-bold text-4xl my-2'>Initial D Enthusiast</p>
-        <p className='text-xl font-medium pl-24'>Inspired by the anime sensation Initial D, I bought an old E46 to fix up and take to Sonoma Raceway. I&apos;m hoping to take the car to autocross events as well.</p>
+        <p className='text-xl font-medium pl-24 font-mono'>Inspired by the anime sensation Initial D, I bought an old E46 to fix up and take to Sonoma Raceway. I&apos;m hoping to take the car to autocross events as well.</p>
         <Image
         src={Racecar}
         height={300}
